@@ -1,0 +1,66 @@
+.texto__titulo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.pesquisa {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+  .search-bar {
+    width: 300px; /* Ajuste a largura conforme necessário */
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+
+.minha__imagem {
+    align-items: center;
+}
+
+.texto__footer {
+    display: flex;
+    margin-top: 450px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#divBusca{
+    background-color:#2F4F4F;
+    border:solid 1px;
+    border-radius:15px;
+    width:300px;
+  }
+  
+.imagem__pesquisa{
+    float:left;
+    background-color:transparent;
+    padding-left:1px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:30px;
+    margin-top: -5px;
+  }
+
+  .texto__aviso {
+    margin-top: -40px;
+    font-size: 30px;
+  }
+
+  .container__dois {
+    left: 30px;
+  }

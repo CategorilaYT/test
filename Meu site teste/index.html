@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <style>
+        .botao {
+            padding: 0;
+            margin: 0;
+            
+        }
+
+        .botao__centralizado {
+            position: fixed;
+            top: 300px; /* Ajuste conforme necessário para a posição vertical */
+            left: 150px; /* Ajuste conforme necessário para a posição horizontal */
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            justify-content: center;
+        }
+
+
+        .imagem {
+        position: relative; /* Container para posicionamento relativo */
+         }
+
+        .minha__imagem {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 30vh; /* Garante que a imagem esteja centralizada verticalmente na tela inteira */
+            margin: 0; /* Remove margens padrão do corpo */
+            margin-top: 230px;
+            position: absolute; /* ou fixed, conforme necessário */
+            top: 50%; /* Ajuste conforme necessário */
+            left: 50%; /* Ajuste conforme necessário */
+            transform: translate(-50%, -50%);
+        }
+
+
+        body {
+            background-color:  #f3bcfd;
+        }
+    </style>
+</head>
+<body>
+    <section class="texto__titulo">
+        <h2>Coins Generator</h2>
+        <h1 class="texto__aviso">*Max 10,000*</h1>
+    </section>
+    <section class="pesquisa">
+        <div class="container"
+            class="container">
+            <input type="text" class="barra-de-pesquisa" placeholder="Digite o valor...">
+            <img src="img/Robloxi_valuuta__Robux__Ikoon-removebg-preview_resized_resized_resized.png" class="imagem__pesquisa" alt="Imagem pesquisa"/>
+
+            <div class="container__dois"
+                class="container__dois">
+                <input type="text" class="barra-de-pesquisa" placeholder="Digite o nome do jogo...">
+            </div>
+        </div>
+    </section>
+
+    <div class="imagem">
+        <img class="minha__imagem" src="img/hqdefault_resized.jpg" alt="Minha Imagem">
+    </div>
+
+    <h3 class="texto__footer">Isto é um site fake, estou aprendendo front-end e back-end. This is a fake website, I am learning front-end and back-end.</h3>
+    
+    <section class="botao">
+        <button class="botao__centralizado">Resgatar</button>
+    </section>
+
+    
+</body>
+</html>
